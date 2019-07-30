@@ -4,7 +4,7 @@
 
     project
     ├── src                     # Source files (everything .cpp)
-    ├── include                 # Header files (everythin .h)
+    ├── include                 # Header files (everything .h)
     ├── build                   # Compiled files, created and deleted by make (everything .o)
     ├── bin                     # Compiled program, target executable
     ├── libs                    # Static external libries
