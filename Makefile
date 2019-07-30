@@ -13,10 +13,6 @@ SOURCES = $(shell find $(SRCDIR) -type f -name *.$(SRCEXT))
 BUILDDIR = build
 OBJECTS = $(patsubst $(SRCDIR)/%,$(BUILDDIR)/%,$(SOURCES:.$(SRCEXT)=.o))
 
-$(info $(SOURCES))
-$(info $(OBJECTS))
-
-
 $(TARGET): $(OBJECTS)
 	$(CC) -o $@ $^ $(FLAGS) $(LIBS)
 
